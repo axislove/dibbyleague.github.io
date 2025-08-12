@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Avega';
+    src: url('../fonts/avega.italic.ttf') format('truetype');
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Avega', sans-serif;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 120px;
+}
+
+.site-nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #282634;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    height: calc(100vh - 15vh - 5vh);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    border: none;
+    background-color: white;
+}
+
+footer {
+    padding: 0 1rem;
+    margin: 0;
+    height: 5vh;
+    color: rgb(255, 255, 255);
+    background-color: #282634;
+    text-align: center;
+}
