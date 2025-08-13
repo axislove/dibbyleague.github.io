@@ -25,6 +25,11 @@ body {
     background-color: #282634;
 }
 
+.site-nav .logo {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .site-content {
     display: flex;
     flex-direction: column;
@@ -78,11 +83,6 @@ footer {
 
     .logo {
         max-width: 120px;
-    }
-
-    .site-nav .logo {
-        margin: 0 auto;
-        padding: 0;
     }
 
     .site-nav h1 {
