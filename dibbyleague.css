@@ -61,3 +61,31 @@ footer {
     background-color: #282634;
     text-align: center;
 }
+
+@media (max-width: 810px) {
+    body {
+        font-size: 18px;
+    }
+
+    .site-content {
+        max-width: 100%;
+    }
+
+    .constitution {
+        padding: 5px;
+        width: 90%;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .site-nav .logo {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .site-nav h1 {
+        display: none;
+    }
+}
