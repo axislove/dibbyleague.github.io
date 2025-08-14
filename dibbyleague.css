@@ -58,6 +58,7 @@ iframe {
 }
 
 footer {
+    display: flex;
     padding: 0 1rem;
     margin: 0;
     width: 100%;
@@ -65,6 +66,7 @@ footer {
     color: rgb(255, 255, 255);
     background-color: #282634;
     text-align: center;
+    justify-content: center;
 }
 
 @media (max-width: 810px) {
